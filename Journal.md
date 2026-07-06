@@ -39,3 +39,46 @@
 ### Sıradaki adım
 Faz 2: Konum (GlobalPositionInt) ve pil (BatteryStatus) telemetrisini de
 yakalayıp, bunları bir Java domain modeline (record/entity) aktarmak
+
+## 6 Temmuz 2026 (devam) — Merkezi Log Yönetimi: Loki + Promtail + Grafana
+
+### Ne yapıldı
+- Projeye SLF4J + Logback bağımlılığı eklendi (`logback-classic`)
+- `logback.xml` yapılandırması yazıldı: hem konsola hem `logs/app.log`
+  dosyasına, günlük rotation (7 gün saklama) ile log yazımı sağlandı
+- `Main.java`, `System.out.println` yerine gerçek bir SLF4J logger
+  kullanacak şekilde güncellendi (placeholder `{}` sözdizimi kullanıldı)
+- `docker-compose.yml` ile üç servisli bir log altyapısı kuruldu:
+  Loki (log depolama), Promtail (log toplama ajanı), Grafana (görselleştirme)
+- `promtail-config.yml` yazıldı: Promtail'in `logs/*.log` dosyalarını izleyip
+  Loki'ye göndermesi sağlandı
+- Grafana'da Loki veri kaynağı (data source) tanımlandı
+- Grafana'nın Explore ekranında, Java uygulamasından akan gerçek zamanlı
+  Heartbeat logları başarıyla görüntülendi
+
+### Karşılaşılan zorluklar
+- Loki container'ı başlamıyordu: `docker-compose.yml`'de `command:` alanı
+  YAML listesi (`- config.file=...`) olarak yazılmıştı, bu da başındaki
+  tireyi (`-`) YAML liste işareti olarak yorumlanmasına, dolayısıyla Loki'nin
+  beklediği `-config.file=` bayrağının (flag) kaybolmasına sebep oldu.
+  Düz string formatına (`command: -config.file=...`) çevrilerek çözüldü
+- Grafana'nın Loki'ye `localhost` yerine Docker servis ismiyle (`loki:3100`)
+  bağlanması gerektiği anlaşıldı — container'lar birbirine servis ismiyle
+  ulaşır, host'un localhost'u ile karışmamalı
+
+### Öğrenilenler
+- SLF4J (ortak log arayüzü) ile Logback (gerçek işi yapan motor) arasındaki
+  fark ve neden ayrı tutuldukları
+- Log seviyeleri (ERROR, WARN, INFO, DEBUG) ve root logger kavramı
+- Log rotation: `TimeBasedRollingPolicy` ile günlük arşivleme ve `maxHistory`
+  ile eski dosyaların otomatik silinmesi
+- Docker Compose'da `depends_on` ile başlatma sırası kontrolü
+- Volume mount mantığı: host ve container arasında dosya sistemi paylaşımı
+- Docker'ın iç ağında servislerin birbirine `localhost` değil, servis ismiyle
+  (`loki`, `promtail` gibi) ulaştığı
+- YAML'da liste (`- item`) ile düz string arasındaki sözdizimi farkı ve bunun
+  komut satırı argümanlarını nasıl bozabileceği
+
+### Sıradaki adım
+Faz 2'ye devam: GlobalPositionInt (konum) ve BatteryStatus (pil) mesajlarını
+da yakalayıp işlemek
