@@ -1,17 +1,403 @@
-22:44:13.271 [main] INFO  com.enes.dronegcs.Main - Dinleme başladı , mesajlar bekleniyor...
-22:44:13.597 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:14.599 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:15.599 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:16.602 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:17.599 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:18.597 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:19.596 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:20.600 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:21.596 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:22.598 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:23.598 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:24.601 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:25.597 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:26.601 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:27.601 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
-22:44:28.602 [main] INFO  com.enes.dronegcs.Main - Heartbeat alındı! Sistem ID: 1
+17:32:46.634 [main] INFO  com.enes.dronegcs.Main - Drone GCS başlatıldı. MAVLink mesajları dinleniyor...
+17:32:46.661 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:46.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:47.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:47.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:47.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:47.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:47.866 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:48.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.002m
+17:32:48.284 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:48.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:48.614 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:48.867 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:49.118 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:49.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:49.369 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:49.614 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:49.866 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:50.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.001m
+17:32:50.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:50.365 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:50.616 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:50.866 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:51.116 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:51.288 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:51.370 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:51.615 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:51.865 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:52.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:52.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:52.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:52.615 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:52.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:53.118 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:53.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:53.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:53.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:53.866 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:54.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:54.287 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:54.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:54.616 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:54.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:55.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:55.288 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:55.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: 0.0m
+17:32:55.616 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:55.866 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:56.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:56.288 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:56.368 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:56.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:56.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:57.115 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:57.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:57.370 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:57.617 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:57.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:58.115 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:58.285 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:58.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:58.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:58.866 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:59.116 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:59.285 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:32:59.369 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652374 | İrtifa: -0.001m
+17:32:59.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:32:59.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:00.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:00.292 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:00.369 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:00.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:00.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:01.116 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:01.287 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:01.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:01.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:01.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:02.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:02.288 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:02.369 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:02.616 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:02.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:03.116 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:03.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:03.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:03.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:03.867 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:04.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:04.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:04.368 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:04.618 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:04.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:05.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:05.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:05.366 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:05.622 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:05.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:06.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:06.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:06.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:06.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:06.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:07.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:07.286 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:07.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:07.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:07.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:08.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:08.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:08.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:08.618 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:08.868 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:09.118 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:09.289 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:09.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:09.616 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:09.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:10.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:10.289 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:10.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:10.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:10.868 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:11.117 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:11.287 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:11.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:11.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:11.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:12.123 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:12.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:12.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:12.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:12.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:13.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:13.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:13.370 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:13.617 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:13.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:14.118 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:14.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:14.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:14.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:14.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:15.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:15.292 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:15.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:15.618 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:15.867 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:16.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:16.287 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:16.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632621 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:16.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:16.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:17.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:17.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:17.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:17.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:17.868 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:18.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:18.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:18.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:18.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:18.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:19.124 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:19.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:19.367 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:19.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:19.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:20.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:20.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:20.369 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:20.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:20.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:21.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:21.292 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:21.368 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:21.622 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:21.868 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:22.118 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:22.289 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:22.374 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:22.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:22.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:23.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:23.289 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:23.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:23.619 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:23.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:24.118 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:24.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:24.374 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:24.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:24.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:25.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:25.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:25.368 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:25.624 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:25.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:26.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:26.288 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:26.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:26.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:26.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:27.123 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:27.288 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:27.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:27.622 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:27.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:28.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:28.294 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:28.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:28.624 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:28.869 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:29.119 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:29.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:29.369 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:29.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:29.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:30.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:30.289 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:30.370 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:30.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:30.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:31.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:31.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:31.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:31.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:31.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:32.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:32.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:32.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:32.622 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:32.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:33.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:33.289 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:33.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:33.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:33.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:34.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:34.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:34.374 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:34.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:34.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:35.120 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:35.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:35.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:35.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:35.874 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:36.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:36.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:36.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:36.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:36.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:37.126 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:37.292 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:37.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:37.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:37.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:38.123 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:38.292 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:38.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:38.620 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:38.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:39.124 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:39.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:39.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:39.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:39.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:40.125 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:40.296 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:40.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:40.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:40.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:41.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:41.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:41.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:41.624 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:41.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:42.124 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:42.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:42.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:42.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:42.876 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:43.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:43.296 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:43.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:43.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:43.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:44.127 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:44.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:44.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:44.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:44.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:45.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:45.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:45.376 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:45.627 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:45.874 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:46.123 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:46.294 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:46.373 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:46.625 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:46.870 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:47.125 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:47.296 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:47.377 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:47.626 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:47.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:48.126 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:48.290 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:48.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:48.626 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:48.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:49.121 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:49.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:49.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:49.627 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:49.871 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:50.124 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:50.291 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:50.375 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:50.623 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:50.877 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:51.124 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:51.292 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:51.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:51.627 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:51.874 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:52.125 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:52.296 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:52.376 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:52.621 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:52.874 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:53.123 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:53.294 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:53.371 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:53.626 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:53.872 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:54.122 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:54.293 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:54.375 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:54.622 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:54.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.002m
+17:33:55.125 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:55.295 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:33:55.372 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:55.627 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:33:55.873 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.3632622 | Boylam: 149.1652375 | İrtifa: -0.001m
+17:39:27.163 [main] INFO  com.enes.dronegcs.Main - Drone GCS başlatıldı. MAVLink mesajları dinleniyor...
+17:39:27.177 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:27.196 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:27.331 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:39:27.412 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:27.419 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:27.660 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:27.663 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:27.911 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:27.917 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:28.159 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:28.165 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:28.331 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:39:28.411 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:28.413 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:28.664 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:28.668 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:28.915 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:28.919 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:29.162 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:29.165 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:29.331 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:39:29.412 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:29.415 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:29.663 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:29.666 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:29.911 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:29.914 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:30.160 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:30.162 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:30.329 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:39:30.409 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:30.411 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:30.659 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.002m
+17:39:30.662 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:30.910 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:30.913 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:31.160 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:31.162 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:31.331 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:39:31.409 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:31.411 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:31.662 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:31.665 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:31.910 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:31.913 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:32.160 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:32.162 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:32.332 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Heartbeat alındı! Sistem ID: 1
+17:39:32.411 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:32.414 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:32.658 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:32.663 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A
+17:39:32.909 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Konum güncellendi! Sistem ID: 1 | Enlem: -35.363262 | Boylam: 149.1652373 | İrtifa: -0.001m
+17:39:32.912 [main] INFO  c.e.dronegcs.MavlinkMessageHandler - Batarya durumu güncellendi! Sistem ID: 1 | Kalan Batarya: 100% | Gerilim: 12.6V | Akım: 0.0A

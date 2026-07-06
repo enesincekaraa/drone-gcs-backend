@@ -79,6 +79,30 @@ yakalayıp, bunları bir Java domain modeline (record/entity) aktarmak
 - YAML'da liste (`- item`) ile düz string arasındaki sözdizimi farkı ve bunun
   komut satırı argümanlarını nasıl bozabileceği
 
-### Sıradaki adım
-Faz 2'ye devam: GlobalPositionInt (konum) ve BatteryStatus (pil) mesajlarını
-da yakalayıp işlemek
+## 6 Temmuz 2026 — Faz 2: Mimari Refactoring ve Çoklu Mesaj Tipi İşleme
+
+### Ne yapıldı
+- Mesaj işleme mantığı `Main` sınıfından ayrılıp `MavlinkMessageHandler` adında
+  ayrı bir sınıfa taşındı (Single Responsibility Principle) — `Main` artık
+  sadece bağlantı kurma ve döngüyü başlatma sorumluluğunu taşıyor
+- Java 21'in `switch` pattern matching özelliği kullanılarak `if-else if`
+  zinciri yerine daha okunaklı, genişletilebilir bir mesaj yönlendirme yapısı
+  kuruldu
+- `GlobalPositionInt` (konum) mesajı entegre edildi: enlem/boylam (1e7'ye
+  bölünerek), irtifa (1000'e bölünerek milimetreden metreye çevrilerek)
+  loglanıyor
+- `BatteryStatus` (pil) mesajı entegre edildi: kalan pil yüzdesi, hücre
+  voltajı (`List<Integer>` üzerinden `.get(0)` ile, milivolttan volta
+  çevrilerek), akım tüketimi loglanıyor
+- Üç mesaj tipi de (Heartbeat, konum, pil) gerçek zamanlı olarak SITL'den
+  başarıyla okunup hem konsola hem Loki/Grafana altyapısına akıyor
+
+### Öğrenilenler
+- `switch` pattern matching (Java 21) ile tip bazlı dallanmanın `if-else if`
+  zincirine göre avantajları: okunabilirlik, genişletilebilirlik, her mesaj
+  tipi için izole edilmiş handler metodları
+- MAVLink'te bazı alanların dizi yerine `List<Integer>` olarak geldiği ve
+  `.get(index)` ile erişildiği (düz array indeksleme `[index]` değil)
+- Birim çevrimleri: milivolt→volt (/1000), 10mA birimi→amper (/100),
+  milimetre→metre (/1000)
+-
